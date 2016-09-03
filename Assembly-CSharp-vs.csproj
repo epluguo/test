@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5BC4C8E8-F4C6-8F02-9825-FCEFC48B1BE1}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\FX\Fire\Fire\FlickerLight.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\scripts\ZoomInOut.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Demos\Src\AnimationSpeed.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\DesaturateEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets2\Cartoon FX\Scripts\CFX2_AutoRotate.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\AttachCamera.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\MovementScript.cs" />
+     <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TerrainRand.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\ArtResources\Volumetric Clouds\Scripts\CloudsToy.cs" />
+     <Compile Include="Assets\ArtResources\WaterPlus\Scripts\FlowmapAnimator.cs" />
+     <Compile Include="Assets\ArtResources\WaterPlus\Scripts\WaterPlusScript.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\ECamera.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyButton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MonoSingleton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+     <Compile Include="Assets\Map\NewLevel\Cave\Lightbeam\Scripts\EnableDepthTexture.cs" />
+     <Compile Include="Assets\Map\NewLevel\Cave\Lightbeam\Scripts\Lightbeam.cs" />
+     <Compile Include="Assets\Map\NewLevel\Cave\Lightbeam\Scripts\LightbeamSettings.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\IFENG\IFengCallbackMessage.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\IFENG\IFengConfig.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\IFENG\IFengConstants.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\IFENG\IFengGameSDK.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\IFENG\IFengStatusCode.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\JsonData.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\JsonException.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\Lexer.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\UC\UCCallbackMessage.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\UC\UCConfig.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\UC\UCConstants.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\UC\UCGameSdk.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Android\UC\UCStatusCode.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ActRotatorExample.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ActTesterGUI.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\DetectorsUsageExample.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\ObscuredFloatTest.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\ObscuredIntTest.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\ObscuredPrefsTest.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\ObscuredStringTest.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\ObscuredVector3Test.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredTypesTests\PerformanceObscuredTests.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\Crypto\Base64Tools.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\Detectors\ActDetectorBase.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\Detectors\InjectionDetector.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\Detectors\ObscuredCheatingDetector.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\Detectors\SpeedHackDetector.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredBool.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredByte.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredChar.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDecimal.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDouble.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredFloat.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredInt.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredLong.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredPrefs.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredQuaternion.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredSByte.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredShort.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredString.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredULong.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUint.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUshort.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector2.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector3.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Scripts\ChatManager.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Scripts\ChatParticipant.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Scripts\ColliderDisplayText.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\DragDropContainer.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\DragDropItem.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\DragDropRoot.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\DragDropSurface.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\Spin.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\UpdateManager.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\UINode.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\SdkManager\SDKManager.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Scripts\ShadowMeshCreator.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Scripts\ShadowVolumeBackend.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Main\ShadowComponentToGO.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Main\ShadowVolume.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Main\ShadowVolumeRenderer.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Main\ShadowVolumeSource.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Main\SkinnedShadowVolume.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\StoreKitBinding.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\StoreKitEventListener.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\StoreKitManager.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\StoreKitProduct.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\StoreKitTransaction.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\StoreKit\testSupport\StoreKitGUIManager.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\Examples\StartAndStopTween.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\iTween.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\iTweenEvent.cs" />
+     <Compile Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\iTweenPath.cs" />
+     <Compile Include="Assets\Scripts\=UI=\AccordSkillPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\AsyAwardUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\AttributeTips.cs" />
+     <Compile Include="Assets\Scripts\=UI=\BagFullTipsPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\BillboardMessageManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ArenaFightInfoCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ArenaRankCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ArenaRoomSeatCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\AthleticPersonCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\AthleticPersonRankCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\BillboardMessageCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\CardCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\CombineGemLeftCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\CombineGemRightCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\DesignationCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\EmailCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\EquipEffectCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\EquipGemCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\FightingCapacityCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\FriendListCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\GetAwardCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\GoodsLevelDropItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\LargeLevelCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\LuckBoxItemCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\MedalistGem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\MedalistGemHole.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\NLevelCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\NMsgCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\PhysicalPowerCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\PointTipsCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\PropertyCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\RankListCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ServerInfoCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ServerSelectCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\ShopGoodsCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\SignInCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\SkillButtonCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\WipeOutGoodsCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Cells\WipeResultCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\CheckPlayerPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\DesignationDataManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\EquipSkillPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\FightingCapacityUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\GemCombinePanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\GetAwardPanelUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Guide\GuideArrow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Guide\GuideItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Guide\GuidePanelBase.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Guide\GuideSetpBase.cs" />
+     <Compile Include="Assets\Scripts\=UI=\GuideStepManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\EffectTimer.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDName.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDRoot.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDSuccess.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDTarget.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDText.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\HUDToast.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\LevelNoticeMode.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\NewUnlockCell.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\TouchControll.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\UIFollowTarget.cs" />
+     <Compile Include="Assets\Scripts\=UI=\HUD\UIFollowText.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Item\BossHead.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Item\SpeceficText.cs" />
+     <Compile Include="Assets\Scripts\=UI=\MainCityUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\MiniTrumpetPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NewGuide\NewGuideClick.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NewGuide\NewGuideConfig.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NewGuide\NewGuideEffect.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NewGuide\NewGuideManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NewGuide\NewGuideMask.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NoticePanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\NpanelBaseManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\OfflineExpPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\OpenAwardPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelArenaRoomUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelArenaUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelAthleticUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelAwardUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelChatUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelChoseeLevel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelDetailLevel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelEmailUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelFightResult.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelFightUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelForgeUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelFriendUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelGemCom.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelGemMedalist.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelGemStone.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelGuide.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelPVPUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelPauseGame.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelPhysicalPower.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelRaffledUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelShopUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelSignInUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelSkillGuide.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PanelSkillUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PassivitySkillPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\PersonPanelUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\QuickTipsPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\RankListPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\RealTimeAwardUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\RoutateAround.cs" />
+     <Compile Include="Assets\Scripts\=UI=\SendEmailPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\TopShow\TopShow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UIExpFront.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\AchevementUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\AchieveTipUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ActiveSkillPanl.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ArenaBFightingRoomUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ArenaPancel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ArenaRoomPanelUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ArenaUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\AssignmentBtnUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\AssignmentTalk.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\AssignmentsPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BackgrounderUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BaoShiHeChengPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BaoShiItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BaoShiXiangQianPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BoardItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BoardUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BossGuide.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\BuyStoneTip.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChallengeTowerUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChangePanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChangePanel_Correct.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChatItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChatSmallUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ChatUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\CheckpointsUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ComboUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ConfirmMenu.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ConfirmUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\FoodItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GameSetting.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GameTip.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangApply.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangChildItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangListUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangPetPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangShareGoodItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GangWorkShopPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GanglistItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GoldItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GoodItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GoodsTips.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\GuideUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ItemIconUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\LandingPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\LoginServiceUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\LoginShowUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\LoginUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\LoginUIManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\MaterialItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\MenuHeCheng.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\Menu_QiangHua.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\MissionUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\MonsterDisPosUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\MonsterHeadUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\NPCConfig.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\NcBillboard.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\OfficialNoticeUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PackageUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PassivePanl.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PetItems.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PetPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PlayerUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\PriceUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\QuestUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\QuicklyBuyGold.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ReChageUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\RegisterUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\RitualPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\Room\UIGameOnline.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\Room\UIRoom.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\SettingManager.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopArrow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopEquipArrow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopItem_new.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShopPanel_new.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShoppingChild.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShowNumController.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\ShowNums.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\StopNumFollow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\StoryTalkUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\StoryTalkUIButton.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\SurviveUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\TaskPoint.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\TrackTaskBtnUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\TrackingTaskPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIArena_MainCity.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIButtonController.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIContrast.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UICreatRole.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIGameOnlineList.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UILabelContents.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIPVP.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIRootController.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UIRoot_PVPUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UITip.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UnChangePanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpForgePancel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpGradeItemUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpGradePancel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpGradeQuick.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpGradeUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\UpQualityPancel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\VipPanlUI.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\WaitingNEW.cs" />
+     <Compile Include="Assets\Scripts\=UI=\UI_Old\test40.cs" />
+     <Compile Include="Assets\Scripts\=UI=\WaittingPanel.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ActivityWindow\ActivityConfig.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ActivityWindow\ActivityContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ActivityWindow\ActivityItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ActivityWindow\ActivityTag.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ActivityWindow\ActivityWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BabelTowerWindow\BabelTowerWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BabelTowerWindow\RankingItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BabelTowerWindow\TopContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BabelTowerWindow\TowerContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BabelTowerWindow\TowerFloorTag.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BagWindow\BagItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BagWindow\BagItemCanSelect.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BagWindow\BagTag.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\BagWindow\BagWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ChatWindow\ChatWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\CheckpointWindow\CheckpointWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ChooseNumWindow\ChooseNumWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ChooseRoleWindow\ChooseRoleItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\CreateRoleWindow\ChooseProfession.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\CreateRoleWindow\CreateRoleWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\CreateRoleWindow\PlayerSpin.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DaliyMissionsWindow\DaliyMissionsContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DaliyMissionsWindow\DaliyMissionsItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DaliyMissionsWindow\DaliyMissionsWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DonationWindow\DonationContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DonationWindow\DonationWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\DonationWindow\UIInputCheck.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipChooseWindow\EquipChooseItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipChooseWindow\EquipChooseWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipInfoWindow\EquipInfoWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\BagEvolveItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\BaptismContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\BaptismItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\EquipItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\EquipWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\EvolveChooseItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\EvolveContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\EvolveItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\GoodsItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\EquipWindow\IntensifyContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FaithPowerWindow\FaithPowerWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FightFrendWindow\FightFrendWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FightMessageWindow\FightMessageWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FightWindow\ButtonQTE.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\DragonCardItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\DragonGameObject.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\DragonInfoBox.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\FlagDragonData.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\FlyDragonResult.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\FlyDragonWindow\FlyDragonWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GoodsTipsWindow\GoodsTipsWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildSkillWindow\GuildSkillButton.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildSkillWindow\GuildSkillContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildSkillWindow\GuildSkillWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildWindow\CreateGuildWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildWindow\GuildInfoItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\GuildWindow\GuildWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\LevelActivityWindow\LevelActivityWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\LevelActivityWindow\RoleShow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\LoginWindow\LoginWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MainWindow\GuideMainStep.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MainWindow\GuideMainWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MainWindow\MainButton.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MainWindow\MainWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MeditationWindow\MeditationWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MessageBoxWindow\DontDestroyMessageBoxWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MessageBoxWindow\MessageBoxWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildExamineContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildExamineItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildMembersContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildMembersItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildOverviewContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\GuildPosWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\MyGuildWindow\MyGuildWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\NewServerActivityWindows\NewServerActivityItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\NewServerActivityWindows\NewServerActivityWindows.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\OptionWindow\OptionWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\PropertyInfoBySprite\PropertyInfoBySprite.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\RechargeWindow\RechargeContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\RechargeWindow\RechargeItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\RechargeWindow\RechargeWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacredRingWindow\SacredRingConfig.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacredRingWindow\SacredRingWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\EquipFaithItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\FaithPowerBox.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\GodItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\GodSacrificeItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\InfoBox.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\MySacrificeWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\SacrificeGuide.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\SacrificeItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SacrificeWindow\SacrificeWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ServiceChooseWindow\ServiceButtonData.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SpriteWindow\FeedGoodsItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SpriteWindow\PetAttributeItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SpriteWindow\SpriteItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\SpriteWindow\SpriteWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TaskTalkWindow\TaskTalkWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TaskWindow\TaskItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TaskWindow\TaskWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamFightWindow\FriendItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamFightWindow\TeamFightWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamMapWindow\AbstractItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamMapWindow\SortPlayerItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamMapWindow\TeamData.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamMapWindow\TeamMapWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TeamMapWindow\TeamPlayerItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\ToolTipWindow\ToolTipWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\TowerAwardWindow\TowerAwardWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\AwardItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPDaliyAwardContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPPrivilegeContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPRechargeContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPWelfareContent.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\VIPWindow\VIPWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WindowBase\NPanelBase.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WindowBase\WindowContentBase.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WindowBase\WindowTagBase.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WorldBossWindow\BossPlayerSortItem.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WorldBossWindow\WorldBossData.cs" />
+     <Compile Include="Assets\Scripts\=UI=\Window\WorldBossWindow\WorldBossWindow.cs" />
+     <Compile Include="Assets\Scripts\=UI=\WipeOutResult.cs" />
+     <Compile Include="Assets\Scripts\AI System\AI_old\AIPath.cs" />
+     <Compile Include="Assets\Scripts\AI System\AI_old\BossAI01.cs" />
+     <Compile Include="Assets\Scripts\AI System\AI_old\MonsterAI.cs" />
+     <Compile Include="Assets\Scripts\AI System\AI_old\RobotAIPath.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\AIController.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\AIRuntimeController.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Actions\BaseIKAction.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Actions\BaseStateAction.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Actions\CustomAction.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\BaseAttribute.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\SerializedStringValuePair.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\AnyState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\AttackState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\AttackStateNotChangeDir.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\ChooseState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\FixPosAttackState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\FleeState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\FollowState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\GetHurtState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\Node.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\OctopusAIState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\OnDeadState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\PatrolState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\RangeAttackState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\SimpleState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\State.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\SummonState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\States\WalkState.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Transition\BaseCondition.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Transition\BaseTransition.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Transition\CustomCondition.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Core\Transition\Formula.cs" />
+     <Compile Include="Assets\Scripts\AI System\Scripts\Plugins\UnityEditorTools.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BulletMove.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\CharacterAttack.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\DamageReceiver.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\DamageSender.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\DamagerSenderContinuous.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\DynamicMesh.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\Skill\NewSkillBase.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\Skill\NewSkillData.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SkillRangeTrail.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\TimerDamageSender.cs" />
+     <Compile Include="Assets\Scripts\Common\ControllingCameraAspectScript.cs" />
+     <Compile Include="Assets\Scripts\Common\DNSHelper.cs" />
+     <Compile Include="Assets\Scripts\Config\ActorConfig.cs" />
+     <Compile Include="Assets\Scripts\Config\CsvParser.cs" />
+     <Compile Include="Assets\Scripts\Config\MyFileUtil.cs" />
+     <Compile Include="Assets\Scripts\Config\NewServerActivityConfig.cs" />
+     <Compile Include="Assets\Scripts\Config\RobotPositionConfig.cs" />
+     <Compile Include="Assets\Scripts\Config\ServerConfig.cs" />
+     <Compile Include="Assets\Scripts\Controller\Achievement.cs" />
+     <Compile Include="Assets\Scripts\Controller\AnimationControl.cs" />
+     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
+     <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Controller\CameraController1.cs" />
+     <Compile Include="Assets\Scripts\Controller\CameraSetting.cs" />
+     <Compile Include="Assets\Scripts\Controller\CameraShowClosed.cs" />
+     <Compile Include="Assets\Scripts\Controller\ClickNpc.cs" />
+     <Compile Include="Assets\Scripts\Controller\Domination.cs" />
+     <Compile Include="Assets\Scripts\Controller\EffectController.cs" />
+     <Compile Include="Assets\Scripts\Controller\EquipmentController.cs" />
+     <Compile Include="Assets\Scripts\Controller\JoyController.cs" />
+     <Compile Include="Assets\Scripts\Controller\MonsterController.cs" />
+     <Compile Include="Assets\Scripts\Controller\MoveAction.cs" />
+     <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Controller\PopButton.cs" />
+     <Compile Include="Assets\Scripts\Controller\RobotPlayerController.cs" />
+     <Compile Include="Assets\Scripts\Controller\RobotRandomMoveController.cs" />
+     <Compile Include="Assets\Scripts\Controller\SceneData.cs" />
+     <Compile Include="Assets\Scripts\Controller\SoundController.cs" />
+     <Compile Include="Assets\Scripts\Controller\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Controller\TempPlayerController.cs" />
+     <Compile Include="Assets\Scripts\Controller\UIController.cs" />
+     <Compile Include="Assets\Scripts\Controller\UIOptionController.cs" />
+     <Compile Include="Assets\Scripts\Data\AIData.cs" />
+     <Compile Include="Assets\Scripts\Data\AchievementData.cs" />
+     <Compile Include="Assets\Scripts\Data\ActivityConfigData.cs" />
+     <Compile Include="Assets\Scripts\Data\AnimationConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\ArenaData.cs" />
+     <Compile Include="Assets\Scripts\Data\ArmorData.cs" />
+     <Compile Include="Assets\Scripts\Data\BadWordsConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\BaptismConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\BaseData.cs" />
+     <Compile Include="Assets\Scripts\Data\BoardData.cs" />
+     <Compile Include="Assets\Scripts\Data\BossAIData.cs" />
+     <Compile Include="Assets\Scripts\Data\BossTalk.cs" />
+     <Compile Include="Assets\Scripts\Data\ChallengeTowerMonsterData.cs" />
+     <Compile Include="Assets\Scripts\Data\ChatData.cs" />
+     <Compile Include="Assets\Scripts\Data\CheckPointInforData.cs" />
+     <Compile Include="Assets\Scripts\Data\DesDeviceData.cs" />
+     <Compile Include="Assets\Scripts\Data\DropItemData.cs" />
+     <Compile Include="Assets\Scripts\Data\EffectData.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipBaseAttConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipCombine.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipCombineData.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipInfo.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipStrengthenAllData.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipStrengthenBaseAtt.cs" />
+     <Compile Include="Assets\Scripts\Data\EquipStrengthenCoefficient.cs" />
+     <Compile Include="Assets\Scripts\Data\FaithPowerData.cs" />
+     <Compile Include="Assets\Scripts\Data\GameConfigData.cs" />
+     <Compile Include="Assets\Scripts\Data\GameHelpData.cs" />
+     <Compile Include="Assets\Scripts\Data\GlobleSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\GoodConfigData.cs" />
+     <Compile Include="Assets\Scripts\Data\GoodsData.cs" />
+     <Compile Include="Assets\Scripts\Data\GuideConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\HistoryRecordData.cs" />
+     <Compile Include="Assets\Scripts\Data\ItemData.cs" />
+     <Compile Include="Assets\Scripts\Data\JewelryData.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalData.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalizationData.cs" />
+     <Compile Include="Assets\Scripts\Data\MagicCrystal.cs" />
+     <Compile Include="Assets\Scripts\Data\MapTaskData.cs" />
+     <Compile Include="Assets\Scripts\Data\ModelData.cs" />
+     <Compile Include="Assets\Scripts\Data\MoneyGoodData.cs" />
+     <Compile Include="Assets\Scripts\Data\MonsterData.cs" />
+     <Compile Include="Assets\Scripts\Data\MonsterDropSetManager.cs" />
+     <Compile Include="Assets\Scripts\Data\MonsterStatus.cs" />
+     <Compile Include="Assets\Scripts\Data\MonsterTypeDta.cs" />
+     <Compile Include="Assets\Scripts\Data\NpcDialogue.cs" />
+     <Compile Include="Assets\Scripts\Data\NpcDialogueData.cs" />
+     <Compile Include="Assets\Scripts\Data\PetData.cs" />
+     <Compile Include="Assets\Scripts\Data\PetSkillsData.cs" />
+     <Compile Include="Assets\Scripts\Data\PlayerBuffData.cs" />
+     <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\Data\PlayerLevelUp.cs" />
+     <Compile Include="Assets\Scripts\Data\RankAwardData.cs" />
+     <Compile Include="Assets\Scripts\Data\RankAwardDataManager.cs" />
+     <Compile Include="Assets\Scripts\Data\RechargeConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\RewardListData.cs" />
+     <Compile Include="Assets\Scripts\Data\RitualInfo.cs" />
+     <Compile Include="Assets\Scripts\Data\SerialTurn.cs" />
+     <Compile Include="Assets\Scripts\Data\ShopData.cs" />
+     <Compile Include="Assets\Scripts\Data\ShoppingDataManager.cs" />
+     <Compile Include="Assets\Scripts\Data\SkillData.cs" />
+     <Compile Include="Assets\Scripts\Data\SkillInfo.cs" />
+     <Compile Include="Assets\Scripts\Data\SpiritInfoData.cs" />
+     <Compile Include="Assets\Scripts\Data\StoryConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\StoryTask.cs" />
+     <Compile Include="Assets\Scripts\Data\StoryTaskData.cs" />
+     <Compile Include="Assets\Scripts\Data\TaskData.cs" />
+     <Compile Include="Assets\Scripts\Data\TaskInfoData.cs" />
+     <Compile Include="Assets\Scripts\Data\TestData.cs" />
+     <Compile Include="Assets\Scripts\Data\UpGradeData.cs" />
+     <Compile Include="Assets\Scripts\Data\UpQualityData.cs" />
+     <Compile Include="Assets\Scripts\Data\UpdateData.cs" />
+     <Compile Include="Assets\Scripts\Data\VIPDaliyAwardConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\VIPSettingsData.cs" />
+     <Compile Include="Assets\Scripts\Data\VIPWelfareConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\WeaponData.cs" />
+     <Compile Include="Assets\Scripts\Detector\DetectorLauncher.cs" />
+     <Compile Include="Assets\Scripts\Effects\AutoDestoryAfterTime.cs" />
+     <Compile Include="Assets\Scripts\Effects\BlastSystem.cs" />
+     <Compile Include="Assets\Scripts\Effects\Bloom.cs" />
+     <Compile Include="Assets\Scripts\Effects\CountTime.cs" />
+     <Compile Include="Assets\Scripts\Effects\Effect.cs" />
+     <Compile Include="Assets\Scripts\Effects\HighSpeedEffect.cs" />
+     <Compile Include="Assets\Scripts\Effects\TetsEffect.cs" />
+     <Compile Include="Assets\Scripts\Effects\UV.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\Pattern\Factory.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\Pattern\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\PoolManager\Common\Lib.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\PoolManager\PoolManager.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\PoolManager\PreRuntimePoolItem.cs" />
+     <Compile Include="Assets\Scripts\Frameworks\PoolManager\SpawnPool.cs" />
+     <Compile Include="Assets\Scripts\GameObject\BaseObject.cs" />
+     <Compile Include="Assets\Scripts\GameObject\BaseRole.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Character.cs" />
+     <Compile Include="Assets\Scripts\GameObject\CommonJiGuan.cs" />
+     <Compile Include="Assets\Scripts\GameObject\DesertOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\GameObject\DoorOpen.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Dragon.cs" />
+     <Compile Include="Assets\Scripts\GameObject\FascinateMonster.cs" />
+     <Compile Include="Assets\Scripts\GameObject\FightObject.cs" />
+     <Compile Include="Assets\Scripts\GameObject\GameEntiy.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\Armor.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\BaseGood.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\DropEp.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\Equipment.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\ShowBlood.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\Weapon.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Goods\Wing.cs" />
+     <Compile Include="Assets\Scripts\GameObject\GuideLookTarget.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\ArenaItems.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\AtuoClose.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\BaseItem.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\Device.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\DeviceBase.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\DeviceDestructible.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\DropItem.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\DropItemAnimation.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\EquipItemCell.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\FaithPowerPos.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\FingersItem.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\FlagItem.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\ForceMoveTo.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\GoodsItemBase.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\HPBar.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\NeedGoodsItem.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\Pet.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\Shop.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\ShowItemFunction.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\UIMessageBox.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Item\quitMessageBox.cs" />
+     <Compile Include="Assets\Scripts\GameObject\JiGuanMonster.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Monster.cs" />
+     <Compile Include="Assets\Scripts\GameObject\MonsterEscape.cs" />
+     <Compile Include="Assets\Scripts\GameObject\Player.cs" />
+     <Compile Include="Assets\Scripts\GameObject\PlayerGuide.cs" />
+     <Compile Include="Assets\Scripts\GameObject\PlayerGuideManager.cs" />
+     <Compile Include="Assets\Scripts\GameObject\RobatPath.cs" />
+     <Compile Include="Assets\Scripts\GameObject\RobatPlayer.cs" />
+     <Compile Include="Assets\Scripts\GameObject\RoleElement.cs" />
+     <Compile Include="Assets\Scripts\GameObject\RoleGenerator.cs" />
+     <Compile Include="Assets\Scripts\GameObject\SceneEffectManager.cs" />
+     <Compile Include="Assets\Scripts\GameObject\SceneEffectMove.cs" />
+     <Compile Include="Assets\Scripts\GameObject\TalkLabelHide.cs" />
+     <Compile Include="Assets\Scripts\GameObject\TestPath.cs" />
+     <Compile Include="Assets\Scripts\GameObject\TimerActionTrigger.cs" />
+     <Compile Include="Assets\Scripts\GameObject\TowerAbsordMonster.cs" />
+     <Compile Include="Assets\Scripts\Helper\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Helper\ColorHelper.cs" />
+     <Compile Include="Assets\Scripts\Helper\CommonTipUI.cs" />
+     <Compile Include="Assets\Scripts\Helper\CoroutineProvider.cs" />
+     <Compile Include="Assets\Scripts\Helper\CsvLoader.cs" />
+     <Compile Include="Assets\Scripts\Helper\CsvPositionAttribute.cs" />
+     <Compile Include="Assets\Scripts\Helper\DrawGizmos.cs" />
+     <Compile Include="Assets\Scripts\Helper\EventID.cs" />
+     <Compile Include="Assets\Scripts\Helper\EventServer.cs" />
+     <Compile Include="Assets\Scripts\Helper\FileDES.cs" />
+     <Compile Include="Assets\Scripts\Helper\RoleElementHolder.cs" />
+     <Compile Include="Assets\Scripts\Helper\RoseHeadInfo.cs" />
+     <Compile Include="Assets\Scripts\Helper\ShowFPS.cs" />
+     <Compile Include="Assets\Scripts\Helper\TestDebug.cs" />
+     <Compile Include="Assets\Scripts\Helper\U3DXML.cs" />
+     <Compile Include="Assets\Scripts\Helper\UIAtlasHelper.cs" />
+     <Compile Include="Assets\Scripts\Helper\UIPanelAdaptScale.cs" />
+     <Compile Include="Assets\Scripts\Helper\UtilityHelper.cs" />
+     <Compile Include="Assets\Scripts\Manager\CallBackManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ConfigManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\DataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\EmailDataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\EquipEffectDataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\EventManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\FightPropertyManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\GlobalSetting.cs" />
+     <Compile Include="Assets\Scripts\Manager\GuideManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\IAPManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\OfflineExpDataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\PlayersManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\PushtSetManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\QuikTipsDataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ReLoginManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\WaittingMessageDataManager.cs" />
+     <Compile Include="Assets\Scripts\Net\CRC.cs" />
+     <Compile Include="Assets\Scripts\Net\DES.cs" />
+     <Compile Include="Assets\Scripts\Net\GameNet.cs" />
+     <Compile Include="Assets\Scripts\Net\LZW.cs" />
+     <Compile Include="Assets\Scripts\Net\MsgBase.cs" />
+     <Compile Include="Assets\Scripts\Net\NetHelper.cs" />
+     <Compile Include="Assets\Scripts\Others\MainApp.cs" />
+     <Compile Include="Assets\Scripts\Others\MainCityCameraAnimationShow.cs" />
+     <Compile Include="Assets\Scripts\Others\PayAllSdkManager.cs" />
+     <Compile Include="Assets\Scripts\Others\RayCheck.cs" />
+     <Compile Include="Assets\Scripts\Others\RunningTimeCheck.cs" />
+     <Compile Include="Assets\Scripts\Others\Transfer.cs" />
+     <Compile Include="Assets\Scripts\Others\TweenAlphaExt.cs" />
+     <Compile Include="Assets\Scripts\Others\TweenPositionExt.cs" />
+     <Compile Include="Assets\Scripts\Others\TweenPositionGlobalExt.cs" />
+     <Compile Include="Assets\Scripts\Others\TweenRotationExt.cs" />
+     <Compile Include="Assets\Scripts\Others\TweenTransformExt.cs" />
+     <Compile Include="Assets\Scripts\Others\UICenterOnChildExt.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\AbstractLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\BaseLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\BossLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\CommonLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\DefendLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\FlyDragonLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\KitTowerLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\Level.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\LevelTaskSuccess.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\ProtectLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\SendLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\TeamLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\TowerLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\Level\WorldBossLevel.cs" />
+     <Compile Include="Assets\Scripts\RPG\MonsterIDNameInfo.cs" />
+     <Compile Include="Assets\Scripts\RPG\MonsterTalk\MonsterText.cs" />
+     <Compile Include="Assets\Scripts\RPG\MonsterTalk\MonsterTextManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGAmbientSound.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGAttributeData.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGBattleParam.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGBoss1.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCustomization\CharacterElement.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCustomization\CharacterElementHolder.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCustomization\CharacterGenerator.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCustomization\Main.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCustomization\StringHolder.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCutSceneSystem\RPGCutSceneEvent.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGCutSceneSystem\RpgCutSceneManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGDef.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Explodable.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\ExploderObject.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\ExploderOption.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\ExploderQueue.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Fragment.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\FragmentPool.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\ArrayDictionary.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\Contour.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\LSHash.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\MeshCutter.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\MeshUtils.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\Plane.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\MeshCutter\Polygon.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\ExploderProfiler.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\ExploderSlowMotion.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\ExploderUtils.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\Hull2D.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGExploder\Utils\TestVertexColors.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGGameManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGMonster.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGMonsterManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGMonsterParams.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGMonsterSkillData.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgAIFsm.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgAIStateBase.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerAIFsm.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerAttackState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerAutoTaskFsm.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerAutoTaskState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerFindPathState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerIdleState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerMoveToState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerPvPAIFsm.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerPvPAttackState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerPvPIdleState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerPvPLoseState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerAI\RpgPlayerPvPWinState.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGPlayerPool.cs" />
+     <Compile Include="Assets\Scripts\RPG\RPGTriggerCamera.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgAsncPvP\RpgAsncPvPManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgBasic\RPGBuff.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgBasic\RPGEffect.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Buff\PlayerBuff.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Buff\RpgBuffManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Equip\EquipEvolveCoefficientConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Equip\EquipEvolveExpConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Equip\EquipEvolveRatioConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Equip\EquipStrengthenConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Equip\EquipStrengthenLevelConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Model\ModelConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Pet\RpgPet.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Pet\RpgPetManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\PlayerGoods\GoodsManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\PlayerGoods\RPGBaseGoods.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\PlayerMapData\PlayerMapManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\PlayerSkill\PlayerSkill.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\PlayerSkill\PlayerSkillManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGFriend\ChatMsgManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGFriend\FriendManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGFriend\GemDataManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGFriend\MedilistRuleManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\PlayerDataManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\RpgBaseObject.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\RpgFight.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\RpgMoveObject.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\RpgPlayer.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RPGObject\RpgRole.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Ritual\RitualManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\RpgSceneScripts\RotateBySpeed.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\SacrificeItemOpen\ItemOpen.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Sound\RPGSound.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Task\DaliyMissionsConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Task\RpgTaskData.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Task\SignAward.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Task\TaskManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Tower\TowerConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Vip\VIPPrivilegeConfig.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\Vip\VipManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgData\WorldBossInfo\WorldBossInfo.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgDataUpdate\RpgDataUpdate.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgEvent.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgPlayerEvent.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgPlayerManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Trails\SmokePlume.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Trails\SmokeTrail.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Trails\Trail.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Trails\TrailRenderer_Base.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Utillities\CircularBuffer.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Utillities\GizmosExtra.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Utillities\Range.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\MeleeWeaponTrail\Interpolate.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\MeleeWeaponTrail\MeleeWeaponTrail.cs" />
+     <Compile Include="Assets\Scripts\RPG\RpgTrail\WeaponTrail\WeaponTrail.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryCameraFade.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryCameraManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryData.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryEffect.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryEffectManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryOtherManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryRole.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryRoleControl.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryRoleManager.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StoryRoleTrans.cs" />
+     <Compile Include="Assets\Scripts\RPG\Story\StroyRoleAnimation.cs" />
+     <Compile Include="Assets\Scripts\Scene\FristLoadingScene.cs" />
+     <Compile Include="Assets\Scripts\Scene\LoadingScene.cs" />
+     <Compile Include="Assets\Scripts\Scene\LoginScene.cs" />
+     <Compile Include="Assets\Scripts\Scene\PrintLog.cs" />
+     <Compile Include="Assets\Scripts\Scene\ResoucesCacheMgr.cs" />
+     <Compile Include="Assets\Scripts\Scene\ResoucesConfigMgr.cs" />
+     <Compile Include="Assets\Scripts\Update\FileUpdate.cs" />
+     <Compile Include="Assets\Scripts\Update\FileUpdateNoticeUI.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MBillBObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MLodObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MPartSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MPlantObjSC.cs" />
+     <Compile Include="Assets\T4M\Tutorial\Scripts\FlyCam.cs" />
+     <Compile Include="Assets\T4M\Tutorial\Scripts\WaypointCam.cs" />
+     <Compile Include="Assets\TestMonoBehavior.cs" />
+     <None Include="Assets\Resources\Shader\MADFINGER-weapon.shader" />
+     <None Include="Assets\ArtResources\Shader\Diff.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-cube-env.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\VW_ActionRPG_AssetPack\Release Notes.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Examples\Shared Assets\Shaders\Simple.shader" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\Apshai Arts\CodeGuard\Editor\Compatibility.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 3 TexturesBumped DLM.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile_NoSpec.shader" />
+     <None Include="Assets\Resources\Atlas\FlyDragon\FlyDragon.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Hand Painted Texture Pack - Natural Surfaces 1.10\Readme.txt" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\res\values\colors.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\_Effects (Mobile, Reduced Overdraw)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets3\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Scripts\RPG\RPGPlayerAI\Environment\FX\River\Water\WaterShader.shader" />
+     <None Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example\_Shaders\Unlit Transparent Color.shader" />
+     <None Include="Assets\StreamingAssets\SpiritSettings.xml" />
+     <None Include="Assets\StreamingAssets\StoryCamera.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 3 TexturesSpec.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Desktop_Shadows.shader" />
+     <None Include="Assets\ArtResources\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\ReadMe - 2.6.3.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaDouble.shader" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFrontAlwaysNoBlendOp.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 3 TexturesUnified.shader" />
+     <None Include="Assets\StreamingAssets\07_Money.xml" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\res\values\style.xml" />
+     <None Include="Assets\StreamingAssets\NpcDialogue.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Diffuse_OutLine.shader" />
+     <None Include="Assets\Resources\Atlas\UI2\UI2.txt" />
+     <None Include="Assets\StreamingAssets\CutScene.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\Changelog.txt" />
+     <None Include="Assets\StreamingAssets\LoadSet.xml" />
+     <None Include="Assets\StreamingAssets\CutSceneSet.xml" />
+     <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Lightmap-Unlit-Wind.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 4 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures ManualAdd BeastLM_1DC.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\AdditiveBlend.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 3 Textures.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-Unlit-Scroll2Layers-Mul-skybox.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DynamicElements_Effects\ScaleParticles.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\4TexturesUnlit.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit-Shader(Transparent).shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-animtexture.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\StreamingAssets\EquipCombine.xml" />
+     <None Include="Assets\ArtResources\Shader\Custom\Player_Specular_Rim.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\ReadMe - 1.6.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 2 TexturesBumped Mobile.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 3 TexturesBumped.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Characters\Mobile-TexPseudoBRDF-WrapAround.shader" />
+     <None Include="Assets\StreamingAssets\Skill.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets3\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\StreamingAssets\LocalizationConfig.xml" />
+     <None Include="Assets\StreamingAssets\BuffConfig.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFront.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets2\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec Mobile.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip1.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\6TexturesUnlitNoLM.shader" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 3 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 4 TexturesBumpSpec.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 2 TexturesSpec.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaStrength.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 4 TexturesBump.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\readme.txt.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\StreamingAssets\SkillActive.xml" />
+     <None Include="Assets\StreamingAssets\BossAI.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 6 Textures.shader" />
+     <None Include="Assets\StreamingAssets\GuideConfig.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\FP_AWFUSTransparent.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\Apshai Arts\CodeGuard\Editor\Mobile.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\TriPlanarTerrain\Shaders\triPlanarTerrainAddPass.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-Unlit-Scroll2Layers-Mul-Sine.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\ArtResources\Shader\HeatDistort.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile_Lite.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 4 Textures.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile_Shadows.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Add Scroll.shader" />
+     <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-skybox.shader" />
+     <None Include="Assets\StreamingAssets\SkillPassive.xml" />
+     <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Unlit-Scroll2Layers-Mul-skybox.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 4 Textures Spec.shader" />
+     <None Include="Assets\StreamingAssets\Device.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Rain.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 4 TexturesBumped.shader" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\res\values\attrs.xml" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-blinking-god-rays.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFrontBack.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\!WarFX Readme.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilInterpolate.shader" />
+     <None Include="Assets\ArtResources\Shader\Rain.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 2 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 4 TexturesSpec.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFrontAlways.shader" />
+     <None Include="Assets\StreamingAssets\GameExplanation.xml" />
+     <None Include="Assets\Editor\shader.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\Resources\Atlas\UI\UI.txt" />
+     <None Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\ArtResources\Shader\Particles Additive Culled.shader" />
+     <None Include="Assets\Resources\CloudsToy Shaders\CloudRealistic.shader" />
+     <None Include="Assets\T4M\READMEFIRST.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\ArtResources\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\res\values\styles.xml" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile_Opaque.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Terrains\Terrain_3Textures.shader" />
+     <None Include="Assets\StreamingAssets\Shop.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Cha_Data\Shader\WrapLambert.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 2 Textures.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\StreamingAssets\Regiester.xml" />
+     <None Include="Assets\StreamingAssets\GameConfig.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 3 Textures Toon.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\!Readme.txt" />
+     <None Include="Assets\StreamingAssets\ItemBuff.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\StreamingAssets\PetSkills.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\README.txt" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\res\values\colors.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Includes\Screen.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
+     <None Include="Assets\StreamingAssets\BossTalk.xml" />
+     <None Include="Assets\StreamingAssets\MonsterType.xml" />
+     <None Include="Assets\StreamingAssets\EquipStrengthen.xml" />
+     <None Include="Assets\StreamingAssets\StoryOperate.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\README.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 5 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 2 Textures Toon.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets3\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Treasure Loot kit\Documents\Fantasy Treasure Loot Kit user guide.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets2\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-Lightmap-Unlit-VirtualVertexGlossy-Add.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-Lightmap-Unlit-Wind.shader" />
+     <None Include="Assets\StreamingAssets\AI.xml" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-billboarded-blinking-god-rays.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\3TexturesUnlit.shader" />
+     <None Include="Assets\StreamingAssets\TaskInfo.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\ArtResources\Shader\Particle Alpha Blend.shader" />
+     <None Include="Assets\StreamingAssets\StoryRoleAction.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Includes\ShadowVolume.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\FP_AWFUSTransparentCutOut2Sided.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 3 Textures Spec.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlusInclude.cginc" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\T4M World Projection Shader Unlit+LM.shader" />
+     <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Soft.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 2 Textures Spec.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Demo_Level_01\shader\DiffuseBumpSpec.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Vegitation Vertex Lit.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\_Effects (Mobile, Regular Mesh)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\ArtResources\Shader\Custom\Player_Rim.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip0.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Allsky\allsky_readme.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 3 TexturesBump.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\AndroidManifest.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaClamp.shader" />
+     <None Include="Assets\Resources\Atlas\ChooseLevelUI\ChooseLevelUI.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\FX_SpellEffectsA\readme.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DynamicElements_Effects\readme.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\res\values\strings.xml" />
+     <None Include="Assets\StreamingAssets\ChallengeTowerConfig.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\ArtResources\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\res\values\attrs.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBackFrontAlways.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 4 TexturesUnified.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\ArtResources\Shader\CameraFade\camerafade.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Resources\Atlas\Icon2\Icon2.txt" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-lightprobe-VirtualVertexGlossy-Add.shader" />
+     <None Include="Assets\Resources\Shader\MADFINGER-head.shader" />
+     <None Include="Assets\Resources\Atlas\FightPanel\FightAtlas.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures ManualAdd CustoLM 1DC.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 2 TexturesBumped.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-skybox.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 2 TexturesUnified.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\StreamingAssets\Character.xml" />
+     <None Include="Assets\StreamingAssets\StoryContent.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\6TexturesUnlit.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\StreamingAssets\MonsterPropertyData.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\FX Mega Pack\FX Mega Pack - Readme.txt" />
+     <None Include="Assets\ArtResources\Shader\Custom\AngryInclude.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+     <None Include="Assets\StreamingAssets\TeamMap.xml" />
+     <None Include="Assets\StreamingAssets\StoryTask.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\_Effects (Mobile, Reduced Overdraw)\!Mobile differences.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\StreamingAssets\FaithPower.xml" />
+     <None Include="Assets\ArtResources\Volumetric Clouds\Instructions.txt" />
+     <None Include="Assets\Resources\Shader\MobileBRDFLit.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\res\values\styles.xml" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-skybox-transparent.shader" />
+     <None Include="Assets\StreamingAssets\Version.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\MagicEffectsLightningVol01\Readme.txt" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 6 Textures.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\StreamingAssets\VIPDaliyAwardConfig.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\StreamingAssets\RitualInfo.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Resources\Atlas\Login\Login.txt" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile_HQ.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\StreamingAssets\MonsterTalkTrigger.xml" />
+     <None Include="Assets\StreamingAssets\Device_Destructible.xml" />
+     <None Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\Apshai Arts\CodeGuard\Editor\Web Player.txt" />
+     <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Detail.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Desktop_Lite.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\Apshai Arts\CodeGuard\Editor\Quick Start.txt" />
+     <None Include="Assets\ArtResources\Shader\Custom\SM.shader" />
+     <None Include="Assets\StreamingAssets\Setting.xml" />
+     <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\VW_ActionRPG_AssetPack\Models\Shaders\AlphaTest-DiffuseDoublesided.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\StreamingAssets\MonsterIDNameInfo.xml" />
+     <None Include="Assets\StreamingAssets\MonsterSkill.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\BuildReport\VERSION.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 3 TexturesBumped Mobile.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\5TexturesUnlit.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Atlases\Arimo20.txt" />
+     <None Include="Assets\ArtResources\Shader\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Shaders\triPlanarTerrainAddPass.shader" />
+     <None Include="Assets\StreamingAssets\06_Money.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFront.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Demo\Demo Notes.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBackNoBlendOp.shader" />
+     <None Include="Assets\ArtResources\Shader\AngryInclude.cginc" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Resources\Atlas\SpeceficText\SpeceficText.txt" />
+     <None Include="Assets\ArtResources\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Resources\Atlas\Cards\CardsAtlas.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\FP_AWFUSTransparent2Sided.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\FP_AWFUSOpaque.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\MADFINGER-god-rays.shader" />
+     <None Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example\_Shaders\DiffuseColorMask.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+     <None Include="Assets\ArtResources\Shader\RainSplash.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\RainSplash.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets2\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\StreamingAssets\NormalTaskInfo.xml" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\Environment\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFrontAlways.shader" />
+     <None Include="Assets\ArtResources\Shader\Custom\CharacterSelfIlluminationOutLine.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\StreamingAssets\TaskData.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternAdditive.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBackAlways.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\Apshai Arts\CodeGuard\Editor\Read Me.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Readme.txt" />
+     <None Include="Assets\Resources\Atlas\Icon\Icon.txt" />
+     <None Include="Assets\StreamingAssets\CharacterLvUp.xml" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\res\values\strings.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilClear.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\BuildReport\README.txt" />
+     <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Fantasy Megapack\Src\Shaders\DesaturateEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures Auto BeastLM 2DrawCall.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 2 TexturesBump.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\JMO Assets2\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\AntiCheatToolkit\CodeStage\AntiCheatToolkit\API.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBack.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip2.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Atlases\Large.txt" />
+     <None Include="Assets\StreamingAssets\Achievement.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\desaturate\Image Based\DesaturateEffect.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\ShurikenMagic\Shaders\SM_2sided_transparent.shader" />
+     <None Include="Assets\ArtResources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\StreamingAssets\DropItem.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBackAlways.shader" />
+     <None Include="Assets\StreamingAssets\MapTaskConfig.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Editor\SDKs\dangle\Android\res\values\style.xml" />
+     <None Include="Assets\Editor\SDKs\ifeng\Android\AndroidManifest.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Cartoon Town and Farm\!info.txt" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 4 Textures Toon.shader" />
+     <None Include="Assets\StreamingAssets\StoryEffect.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\2TexturesUnlit.shader" />
+     <None Include="Assets\StreamingAssets\Story.xml" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaClear.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaInterpolate.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\WarFX\_Effects (Mobile, Regular Mesh)\!Mobile differences.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\ArtResources\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
+     <None Include="Assets\StreamingAssets\ActivityInfo.xml" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M World Projection Shader.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM mobile.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\VW_ActionRPG_AssetPack\Models\Shaders\AlphaTest-DiffuseBack.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBack.shader" />
+     <None Include="Assets\Resources\Atlas\SkillIcon\SkillIconAtlas.txt" />
+     <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Detail_Soft.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 5 Textures.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\!Readme.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleMultiply.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\ArtResources\Shader\Additive.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\DungeonMasterKit\Dungeon_levels\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\ShurikenMagic\Shaders\SM_TransparentRim.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+     <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip3.shader" />
+     <None Include="Assets\Resources\Atlas\LoadingScene\LoadingScene.txt" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\VW_ActionRPG_AssetPack\Models\Shaders\AlphaTest-Glossy.shader" />
+     <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="CloudsToy">
+ <HintPath>Assets\ArtResources\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.CJK">
+ <HintPath>Assets\Resources\DLL\I18N.CJK.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N">
+ <HintPath>Assets\Resources\DLL\I18N.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>Assets\Resources\DLL\I18N.West.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityTools">
+ <HintPath>Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>Assets\Scripts\Update\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

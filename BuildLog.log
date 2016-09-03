@@ -1,0 +1,835 @@
+Built from '' repo; Version is '4.3.3f1 (c8ca9b6b9936) revision 96362'; Using compiler version '160040219'
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, shouldGiveDebuggerChanceToAttach: 0
+Initialize mono
+Mono path[0] = 'C:/Program Files (x86)/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = 'C:/Program Files (x86)/Unity/Editor/Data/UnityScript'
+Mono config path = 'C:/Program Files (x86)/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+
+ BATCHMODE ARGUMENTS:
+Unity
+-batchmode
+-projectPath
+E:\NewClient
+-assetServerUpdate
+192.168.1.188
+DarkHero
+admin
+chenbo515151
+-executeMethod
+CommandBuild.BuildWindows
+-logFile
+E:\NewClient\BuildLog.log
+-quit
+Successfully changed project path to: E:\NewClient
+E:/NewClient
+Loading GUID <-> Path mappings ... 0.051280 seconds.
+Loading Asset Database ...  0.072798 seconds
+AssetDatabase consistency checks ... Invalid cached metadata discovered. Will be deleted: 'library/metadata/48/48b5fb098e2ae064b87e82c8dd2a470d.tmp_cache'
+Invalid cached metadata discovered. Will be deleted: 'library/metadata/51/51b88e2aefbcc934bb4f3f92fc86bd4d.tmp_cache'
+ 6.380686 seconds
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.2018]
+    Renderer: NVIDIA GeForce GT 630
+    Vendor:   NVIDIA
+    VRAM:     978 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Registering custom dll's ...
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iPhonePlayer/EditorExtensions/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/EditorExtensions/UnityEditor.WP8.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/EditorExtensions/UnityEditor.Metro.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BB10Player/EditorExtensions/UnityEditor.BB10.Extensions.dll
+Register platform support module: C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/EditorExtensions/UnityEditor.Android.Extensions.dll
+Registered in 0.131671 seconds.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.3.3 for Unity v4.3.3
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript-Editor.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript-Editor.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Editor\Prime31\P31MenuItem.dll (this message is harmless)
+Loading E:\NewClient\Assets\Editor\Prime31\P31MenuItem.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.CJK.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.CJK.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.West.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.West.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll (this message is harmless)
+Loading E:\NewClient\Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll (this message is harmless)
+Loading E:\NewClient\Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+System memory in use before: 71.4 MB.
+Unloading 853 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 28.8 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 771.
+Total: 63.528297 ms (FindLiveObjects: 0.033675 ms CreateObjectMapping: 0.028544 ms MarkObjects: 0.468577 ms  DeleteObjects: 1.799580 ms)
+
+Validating Project structure ... 0.109668 seconds.
+Refresh, detecting if any assets need to be imported or removed ... 0.137981 seconds (Nothing changed)
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/EditorGenerated/UnityEngineMonoBehaviour.cpp Line: 20)
+
+System memory in use before: 112.4 MB.
+Unloading 127 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 104.8 MB.
+
+Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 2024.
+Total: 12.585196 ms (FindLiveObjects: 0.083388 ms CreateObjectMapping: 0.038807 ms MarkObjects: 0.929136 ms  DeleteObjects: 1.588544 ms)
+
+Asset server action with params:
+  #0: 192.168.1.188
+  #1: DarkHero
+  #2: admin
+  #3: chenbo515151
+DisplayProgressbar: Updating history
+Refresh, detecting if any assets need to be imported or removed ... 0.355946 seconds (Nothing changed)
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 109.745860 ms] 
+
+----- Total AssetImport time: 0.273113s, Asset Import: 0.157726s, CacheServerIntegrate: 0.000000s, CacheServer Download: 0.000781s [0 B, 0.000000 mb/s], CacheServer Hashing: 0.000000s [0 B, -1.#IND00 mb/s]
+----- Cache Server detail: Total assets requested: 1, Cached Assets: 0, Not available: 0, Not supported: 1.
+----- Cache Server detail: CacheMove: 0.000000s, CacheDelete: 0.000000s.
+
+Refresh, detecting if any assets need to be imported or removed ... 0.118635 seconds (Nothing changed)
+Forcing deletion of asset Materials (guid: 1d837b178f192634f87a6f0524368623, version 0, server digest 00000000000000000000000000000000, status Added locally)
+Forcing deletion of asset gem.mat (guid: 44ac80f07ef3f2c4f90165ba58c2ca11, version 0, server digest 4d3598b9b569dccc3475d3b688503859, status Added locally)
+Forcing download of 骷髅战士.prefab (guid: f84e3f271d71af04fa69470166cbed3b, version 4176, server digest 5f7ccb1f810c099989ebc5447fd350b4, status Changed locally)
+Forcing download of CommandBuild.cs (guid: 2f00bb37f2b270243b3fa5a2dc46f709, version 4209, server digest 70e1b0087a188f0d7ae631fcacb9c79f, status Changed locally)
+Forcing download of 牛头法师(BOSS).prefab (guid: 5f982b0653741d146b88df9af9938c36, version 4163, server digest a379232a9a7835e2423ecac6e8c30e00, status Changed locally)
+Forcing download of 骷髅弓手(+火环).prefab (guid: 2d2b7c050060ef946a1766003da4b9e3, version 4168, server digest d4b00fe7f53625fe3c896ade03a9ce52, status Changed locally)
+Forcing download of 僵尸.prefab (guid: d7544eb09e8968d44a0a36de318409d8, version 4176, server digest 5fae521cb65b289b8579c5bb7bfad553, status Changed locally)
+Downloading 5 assets from server:
+Replacing downloaded file 僵尸.prefab (guid d7544eb09e8968d44a0a36de318409d8)
+Replacing downloaded file 骷髅弓手(+火环).prefab (guid 2d2b7c050060ef946a1766003da4b9e3)
+Replacing downloaded file 牛头法师(BOSS).prefab (guid 5f982b0653741d146b88df9af9938c36)
+Replacing downloaded file 骷髅战士.prefab (guid f84e3f271d71af04fa69470166cbed3b)
+Replacing downloaded file CommandBuild.cs (guid 2f00bb37f2b270243b3fa5a2dc46f709)
+Refresh, detecting if any assets need to be imported or removed ... Hashing assets ... 0.002293 seconds
+-----------Compute hash(es) for 5 asset(s).
+
+0.219213 seconds
+Updating Assets/Editor/CommandBuild.cs - GUID: 2f00bb37f2b270243b3fa5a2dc46f709...
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 5
+
+-----Compiler Commandline Arguments:
+Filename: "C:/Program Files (x86)/Unity/Editor/Data/Mono\bin\mono.exe"
+Arguments: "C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\gmcs.exe"  @Temp/UnityTempFile-3a29e9ebf6719a643a82c58a5c654bbf
+MONO_PATH: C:/Program Files (x86)/Unity/Editor/Data/Mono\lib\mono\2.0
+MONO_CFG_DIR: C:/Program Files (x86)/Unity/Editor/Data/Mono\etc
+index: 72
+Responsefile: Temp/UnityTempFile-3a29e9ebf6719a643a82c58a5c654bbf Contents: 
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-Editor.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript.dll
+-r:Assets/Editor/Prime31/P31MenuItem.dll
+-r:Assets/Map/Map_Level/I18N.CJK.dll
+-r:Assets/Map/Map_Level/I18N.dll
+-r:Assets/Map/Map_Level/I18N.West.dll
+-r:"Assets/Scripts/AI System/Scripts/Plugins/UnityTools.dll"
+-r:Assets/Scripts/RPG/RPGExploder/3rd/Poly2Tri.dll
+-r:Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
+-r:Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll
+-r:Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iPhonePlayer/EditorExtensions/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/EditorExtensions/UnityEditor.WP8.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/EditorExtensions/UnityEditor.Metro.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BB10Player/EditorExtensions/UnityEditor.BB10.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/EditorExtensions/UnityEditor.Android.Extensions.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll"
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_3
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+"Assets/ArtResources/ExtraUnityPackage/Top Down/tools scripts/Editor/TerrainRandEditor.cs"
+Assets/Editor/AutoSave.cs
+Assets/Editor/ChangeShader.cs
+Assets/Editor/CommandBuild.cs
+Assets/Editor/Editor/BuildResource.cs
+Assets/Editor/Editor/EffectsEditor.cs
+Assets/Editor/ExportResource.cs
+Assets/Editor/IPMenu.cs
+Assets/Editor/LightmapSize.cs
+Assets/Editor/Other/BuildPoints.cs
+"Assets/Editor/Water (Pro Only)/Water4/GerstnerDisplaceEditor.cs"
+"Assets/Editor/Water (Pro Only)/Water4/PlanarReflectionEditor.cs"
+"Assets/Editor/Water (Pro Only)/Water4/SpecularLightingEditor.cs"
+"Assets/Editor/Water (Pro Only)/Water4/WaterBaseEditor.cs"
+"Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs"
+"Assets/Marmoset/External/Lightmapping Extended/Editor/ILConfig.cs"
+"Assets/Marmoset/External/Lightmapping Extended/Editor/LMExtendedWindow.cs"
+"Assets/Marmoset/External/Lightmapping Extended/Editor/SavePresetWindow.cs"
+"Assets/Marmoset/External/Lightmapping Extended/Editor/SerializedConfig.cs"
+Assets/Marmoset/Skyshop/Editor/Color.cs
+Assets/Marmoset/Skyshop/Editor/CubeBuffer.cs
+Assets/Marmoset/Skyshop/Editor/CubeMipProcessor.cs
+Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs
+Assets/Marmoset/Skyshop/Editor/HDRProcessor.cs
+Assets/Marmoset/Skyshop/Editor/LME/BeastConfig.cs
+Assets/Marmoset/Skyshop/Editor/LME/mset_ILConfig.cs
+Assets/Marmoset/Skyshop/Editor/LME/mset_SerializedConfig.cs
+Assets/Marmoset/Skyshop/Editor/PerfMeter.cs
+Assets/Marmoset/Skyshop/Editor/ProgressState.cs
+Assets/Marmoset/Skyshop/Editor/QuickPow.cs
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs
+Assets/Marmoset/Skyshop/Editor/Util.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyButtonCallBack.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyButtonInspector.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyJoystickCallBack.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyJoystickInspector.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchMenu.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasytouchCallBack.cs
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/HTGUILayout.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/BMFontReader.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/ComponentSelector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIJson.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUISelectionTools.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUISettings.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUITransformInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/SpriteSelector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasMaker.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICameraTool.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateNewUIWizard.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateWidgetWizard.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIDrawCallInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFilledSpriteInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontMaker.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIImageButtonInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UILabelInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelTool.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIScrollBarInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISlicedSpriteInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISliderInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISpriteInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UITextureInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UITexturePacker.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UITiledSpriteInspector.cs
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIWidgetInspector.cs
+Assets/Scripts/3rd_Party_Plugin/iTweenEditor/Editor/iTweenEventDataEditor.cs
+Assets/Scripts/3rd_Party_Plugin/iTweenEditor/Editor/iTweenPathEditor.cs
+"Assets/Scripts/AI System/Scripts/Editor/AIControllerEditor.cs"
+"Assets/Scripts/AI System/Scripts/Editor/AiEditorWindow.cs"
+"Assets/Scripts/AI System/Scripts/Editor/BaseConditionDrawer.cs"
+"Assets/Scripts/AI System/Scripts/Editor/BaseDrawer.cs"
+"Assets/Scripts/AI System/Scripts/Editor/BaseIKActionDrawer.cs"
+"Assets/Scripts/AI System/Scripts/Editor/BaseStateActionDrawer.cs"
+"Assets/Scripts/AI System/Scripts/Editor/BaseTransitionDrawer.cs"
+"Assets/Scripts/AI System/Scripts/Editor/CreateAIController.cs"
+"Assets/Scripts/AI System/Scripts/Editor/CreateCustomAction.cs"
+"Assets/Scripts/AI System/Scripts/Editor/CreateCustomCondition.cs"
+"Assets/Scripts/AI System/Scripts/Editor/ReorderableList.cs"
+"Assets/Scripts/AI System/Scripts/Editor/TwoAreaEditorWindow.cs"
+"Assets/Scripts/AI System/Scripts/Editor/TwoAreaGraphEditorWindow.cs"
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Trails/Editor/SmokePlumeEditor.cs
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Trails/Editor/SmokeTrailEditor.cs
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Trails/Editor/TrailEditor.cs
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Trails/Editor/TrailEditor_Base.cs
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Trails/Editor/TrailPreviewUtillity.cs
+Assets/Scripts/RPG/RpgTrail/BetterTrail/Utillities/Editor/RangePropertyDrawer.cs
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Xml.Linq.dll"
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp-Editor.dll
+Compilation succeeded - 57 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/Editor/ChangeShader.cs(4,1): warning CS0105: The using directive for `UnityEngine' appeared previously in this namespace
+Assets/Editor/ChangeShader.cs(1,7): (Location of the symbol related to previous warning)
+Assets/Editor/ChangeShader.cs(5,1): warning CS0105: The using directive for `System.Collections' appeared previously in this namespace
+Assets/Editor/ChangeShader.cs(2,14): (Location of the symbol related to previous warning)
+Assets/ArtResources/ExtraUnityPackage/Top Down/tools scripts/Editor/TerrainRandEditor.cs(11,50): warning CS0618: `UnityEditor.EditorGUILayout.ObjectField(string, UnityEngine.Object, System.Type, params UnityEngine.GUILayoutOption[])' is obsolete: `Check the docs for the usage of the new parameter 'allowSceneObjects'.'
+Assets/Editor/Editor/EffectsEditor.cs(53,24): warning CS0219: The variable `monsterSet' is assigned but its value is never used
+Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs(255,66): warning CS0618: `UnityEngine.Object.FindSceneObjectsOfType(System.Type)' is obsolete: `use Object.FindObjectsOfType instead.'
+Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs(641,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object[], string)' is obsolete: `Use Undo.RecordObjects instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(122,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(131,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(142,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(158,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(166,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(174,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(182,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(194,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(240,70): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(288,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(300,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(342,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(357,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(363,62): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(383,62): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(405,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(54,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(64,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(105,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs(97,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs(40,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/ComponentSelector.cs(74,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(647,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(653,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(704,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(710,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(1027,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(40,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(75,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(99,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUITransformInspector.cs(162,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/SpriteSelector.cs(62,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasInspector.cs(94,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasMaker.cs(662,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICameraTool.cs(157,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateNewUIWizard.cs(37,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateWidgetWizard.cs(724,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIWidgetInspector.cs(762,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(85,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(289,50): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(296,50): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontMaker.cs(91,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIImageButtonInspector.cs(36,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelInspector.cs(54,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelTool.cs(166,42): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs(52,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs(161,42): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIScrollBarInspector.cs(14,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISliderInspector.cs(45,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs(23,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+Assets/Scripts/3rd_Party_Plugin/iTweenEditor/Editor/iTweenPathEditor.cs(84,38): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets/Editor/ChangeShader.cs(4,1): warning CS0105: The using directive for `UnityEngine' appeared previously in this namespace
+ 
+(Filename: Assets/Editor/ChangeShader.cs Line: 4)
+
+Assets/Editor/ChangeShader.cs(5,1): warning CS0105: The using directive for `System.Collections' appeared previously in this namespace
+ 
+(Filename: Assets/Editor/ChangeShader.cs Line: 5)
+
+Assets/ArtResources/ExtraUnityPackage/Top Down/tools scripts/Editor/TerrainRandEditor.cs(11,50): warning CS0618: `UnityEditor.EditorGUILayout.ObjectField(string, UnityEngine.Object, System.Type, params UnityEngine.GUILayoutOption[])' is obsolete: `Check the docs for the usage of the new parameter 'allowSceneObjects'.'
+ 
+(Filename: Assets/ArtResources/ExtraUnityPackage/Top Down/tools scripts/Editor/TerrainRandEditor.cs Line: 11)
+
+Assets/Editor/Editor/EffectsEditor.cs(53,24): warning CS0219: The variable `monsterSet' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/Editor/EffectsEditor.cs Line: 53)
+
+Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs(255,66): warning CS0618: `UnityEngine.Object.FindSceneObjectsOfType(System.Type)' is obsolete: `use Object.FindObjectsOfType instead.'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs Line: 255)
+
+Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs(641,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object[], string)' is obsolete: `Use Undo.RecordObjects instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/CubemapGUI.cs Line: 641)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(122,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 122)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(131,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 131)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(142,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 142)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(158,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 158)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(166,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 166)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(174,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 174)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(182,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 182)
+
+Assets/Marmoset/Skyshop/Editor/SkyInspector.cs(194,30): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/SkyInspector.cs Line: 194)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(240,70): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 240)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(288,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 288)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(300,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 300)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(342,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 342)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(357,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 357)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(363,62): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 363)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(383,62): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 383)
+
+Assets/Marmoset/Skyshop/Editor/Skyshop.cs(405,54): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Marmoset/Skyshop/Editor/Skyshop.cs Line: 405)
+
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(54,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs Line: 54)
+
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(64,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs Line: 64)
+
+Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs(105,58): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeInspector()' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs Line: 105)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs(97,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs Line: 97)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs(40,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs Line: 40)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/ComponentSelector.cs(74,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/ComponentSelector.cs Line: 74)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(647,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs Line: 647)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(653,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs Line: 653)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(704,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs Line: 704)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(710,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs Line: 710)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs(1027,38): warning CS0618: `UnityEditor.Undo.RegisterUndo(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIEditorTools.cs Line: 1027)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(40,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs Line: 40)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(75,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs Line: 75)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs(99,30): warning CS0618: `UnityEditor.Undo.RegisterSceneUndo(string)' is obsolete: `Use DestroyObjectImmediate, RegisterCreatedObjectUndo or RegisterUndo instead.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUIMenu.cs Line: 99)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUITransformInspector.cs(162,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/NGUITransformInspector.cs Line: 162)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/SpriteSelector.cs(62,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/SpriteSelector.cs Line: 62)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasInspector.cs(94,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasInspector.cs Line: 94)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasMaker.cs(662,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIAtlasMaker.cs Line: 662)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICameraTool.cs(157,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICameraTool.cs Line: 157)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateNewUIWizard.cs(37,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateNewUIWizard.cs Line: 37)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateWidgetWizard.cs(724,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UICreateWidgetWizard.cs Line: 724)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIWidgetInspector.cs(762,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIWidgetInspector.cs Line: 762)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(85,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs Line: 85)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(289,50): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs Line: 289)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs(296,50): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontInspector.cs Line: 296)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontMaker.cs(91,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIFontMaker.cs Line: 91)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIImageButtonInspector.cs(36,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIImageButtonInspector.cs Line: 36)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelInspector.cs(54,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelInspector.cs Line: 54)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelTool.cs(166,42): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPanelTool.cs Line: 166)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs(52,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs Line: 52)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs(161,42): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIPopupListInspector.cs Line: 161)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIScrollBarInspector.cs(14,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UIScrollBarInspector.cs Line: 14)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISliderInspector.cs(45,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISliderInspector.cs Line: 45)
+
+Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs(23,34): warning CS0618: `UnityEditor.EditorGUIUtility.LookLikeControls(float)' is obsolete: `LookLikeControls and LookLikeInspector modes are deprecated. Use EditorGUIUtility.labelWidth and EditorGUIUtility.fieldWidth to control label and field widths.'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs Line: 23)
+
+Assets/Scripts/3rd_Party_Plugin/iTweenEditor/Editor/iTweenPathEditor.cs(84,38): warning CS0618: `UnityEditor.Undo.SetSnapshotTarget(UnityEngine.Object, string)' is obsolete: `Use Undo.RecordObject instead'
+ 
+(Filename: Assets/Scripts/3rd_Party_Plugin/iTweenEditor/Editor/iTweenPathEditor.cs Line: 84)
+
+Reloading assemblies after successful script compilation.
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\I18N.CJK.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll (this message is harmless)
+Initializing Unity.PackageManager (PackageManager) v4.3.3 for Unity v4.3.3
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript-Editor.dll (this message is harmless)
+Loading E:\NewClient\Library\ScriptAssemblies\Assembly-UnityScript-Editor.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Editor\Prime31\P31MenuItem.dll (this message is harmless)
+Loading E:\NewClient\Assets\Editor\Prime31\P31MenuItem.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.CJK.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.CJK.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Map\Map_Level\I18N.West.dll (this message is harmless)
+Loading E:\NewClient\Assets\Map\Map_Level\I18N.West.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll (this message is harmless)
+Loading E:\NewClient\Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll (this message is harmless)
+Loading E:\NewClient\Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll into Unity Child Domain
+Non platform assembly: E:\NewClient\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll (this message is harmless)
+Loading E:\NewClient\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.3\Unity.PackageManager.dll into Unity Child Domain
+You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.MonoBehaviour:.ctor()
+PushtSetManager:.ctor()
+SceneManager:.cctor()
+
+[C:/BuildAgent/work/d3d49558e4d408f4/artifacts/EditorGenerated/UnityEngineMonoBehaviour.cpp line 20] 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/EditorGenerated/UnityEngineMonoBehaviour.cpp Line: 20)
+
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+ done. [Time: 8393.071175 ms] 
+
+----- Total AssetImport time: 11.852033s, Asset Import: 9.441782s, CacheServerIntegrate: 0.002462s, CacheServer Download: 0.013088s [60.7 KB, 4.532618 mb/s], CacheServer Hashing: 0.002565s [195.5 KB, 74.445915 mb/s]
+----- Cache Server detail: Total assets requested: 5, Cached Assets: 4, Not available: 0, Not supported: 1.
+----- Cache Server detail: CacheMove: 0.001596s, CacheDelete: 0.000000s.
+
+Unity
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-batchmode
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-projectPath
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+E:\NewClient
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-assetServerUpdate
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+192.168.1.188
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+DarkHero
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+admin
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+chenbo515151
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-executeMethod
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+CommandBuild.BuildWindows
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-logFile
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+E:\NewClient\BuildLog.log
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+-quit
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CommandBuild:BuildWindows() (at Assets\Editor\CommandBuild.cs:20)
+ 
+(Filename: Assets/Editor/CommandBuild.cs Line: 20)
+
+'Assets/Main.unity' is an incorrect path for a scene file. BuildPlayer expects paths relative to the project folder.
+ 
+(Filename:  Line: -1)
+
+System memory in use before: 113.4 MB.
+Unloading 117 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 105.5 MB.
+
+Unloading 801 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 14.569834 ms (FindLiveObjects: 0.110649 ms CreateObjectMapping: 0.058050 ms MarkObjects: 1.044276 ms  DeleteObjects: 2.835838 ms)
+
+System memory in use before: 105.2 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 105.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 1.675781 ms (FindLiveObjects: 0.149457 ms CreateObjectMapping: 0.037845 ms MarkObjects: 0.958643 ms  DeleteObjects: 0.005452 ms)
+
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 5
+System memory in use before: 111.2 MB.
+Unloading 108 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 105.4 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 11.669530 ms (FindLiveObjects: 0.168059 ms CreateObjectMapping: 0.045542 ms MarkObjects: 1.033371 ms  DeleteObjects: 1.955452 ms)
+
+
+*** Cancelled 'Build.Player.WindowsStandalonePlayer' in 1 seconds
+
+Batchmode quit successfully invoked - shutting down!
+System memory in use before: 104.9 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 30.8 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 1000.
+Total: 10.684267 ms (FindLiveObjects: 0.045542 ms CreateObjectMapping: 0.038807 ms MarkObjects: 0.736381 ms  DeleteObjects: 9.251915 ms)
+
+Refresh, detecting if any assets need to be imported or removed ... 0.129015 seconds (Nothing changed)
+Cleanup mono
+Exiting batchmode successfully now!

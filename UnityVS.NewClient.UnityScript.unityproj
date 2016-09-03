@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87E70DF7-BF9F-7B35-0933-DB3865FEEDD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{84365F2C-1DDE-431A-8C14-179ADC971E4D};{1FAC5C55-277D-4884-94A4-83DBDAF57E56}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="I18N.CJK">
+      <HintPath>Assets\Map\Map_Level\I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets\Map\Map_Level\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>Assets\Map\Map_Level\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityTools">
+      <HintPath>Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="CloudsToy">
+      <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.NewClient.UnityScript.Plugins.unityproj">
+      <Project>{93F4B8C7-E5A1-0FA3-998B-F8EC7B04C4FE}</Project>
+      <Name>UnityVS.NewClient.UnityScript.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.NewClient.CSharp.Plugins.csproj">
+      <Project>{A9273DDA-07FF-E3EC-9D23-A974A8BD55B5}</Project>
+      <Name>UnityVS.NewClient.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Standard Assets\Scripts\Camera Scripts\FlyThrough.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Blade_girl\scripts\cameraViewObject.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\Bloom.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\CameraMotionBlur.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\ColorCorrectionLut.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\BloomAndLensFlares.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\CameraInfo.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ColorCorrectionCurves.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ContrastEnhance.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Crease.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\DepthOfField34.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\DepthOfFieldScatter.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffectNormals.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Fisheye.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\GlobalFog.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\NoiseAndGrain.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\PostEffectsBase.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\PostEffectsHelper.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Quads.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\ScreenOverlay.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\SunShafts.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\TiltShift.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Tonemapping.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Triangles.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\Vignetting.js" />
+    <Compile Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Scripts\TriPlanarTerrainScript.js" />
+    <Compile Include="Assets\Scripts\=UI=\UI_Old\ShowFps.js" />
+    <Compile Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch\Plugins\_Java-Event-Template\J_EasyButtonTemplate.js" />
+    <Compile Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch\Plugins\_Java-Event-Template\J_EasyJoystickTemplate.js" />
+    <Compile Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch\Plugins\_Java-Event-Template\J_EasyTouchTemplate.js" />
+    <Compile Include="Assets\Scripts\Effects\GlowPlane.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+    <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Allsky\allsky_readme.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Readme.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Blade_girl\ReadMe_[V 2.0]_03_25.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Hand Painted Texture Pack - Natural Surfaces 1.10\Readme.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\readme.txt.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\!Readme.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\desaturate\Image Based\DesaturateEffect.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Shaders\triPlanarTerrainAddPass.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\!Readme.txt" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\Fallback.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Additive.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\AdditiveBlend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Blend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Cursor.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternAdditive.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\InterlacePatternBlend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\LaserScope.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Multiply.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditive.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleAdditiveBlend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleBlend.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ParticleMultiply.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\Rain.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\RainSplash.shader" />
+    <None Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx\ScreenRefract.shader" />
+    <None Include="Assets\ArtResources\Shader\Additive.shader" />
+    <None Include="Assets\ArtResources\Shader\AlphaCutoutCheapFallback.shader" />
+    <None Include="Assets\ArtResources\Shader\AngryInclude.cginc" />
+    <None Include="Assets\ArtResources\Shader\CameraFade\camerafade.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\AngryInclude.cginc" />
+    <None Include="Assets\ArtResources\Shader\Custom\CharacterSelfIlluminationOutLine.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\Diffuse_OutLine.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\Player_Rim.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\Player_Specular_Rim.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\SM.shader" />
+    <None Include="Assets\ArtResources\Shader\Custom\Vegitation Vertex Lit.shader" />
+    <None Include="Assets\ArtResources\Shader\Diff.shader" />
+    <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Lightmap-Unlit-Wind.shader" />
+    <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-skybox.shader" />
+    <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Unlit-Scroll2Layers-Mul-skybox.shader" />
+    <None Include="Assets\ArtResources\Shader\Environment\MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader" />
+    <None Include="Assets\ArtResources\Shader\HeatDistort.shader" />
+    <None Include="Assets\ArtResources\Shader\Particle Alpha Blend.shader" />
+    <None Include="Assets\ArtResources\Shader\Particles Additive Culled.shader" />
+    <None Include="Assets\ArtResources\Shader\Rain.shader" />
+    <None Include="Assets\ArtResources\Shader\RainSplash.shader" />
+    <None Include="Assets\Editor\shader.txt" />
+    <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Documentation\Readme.txt" />
+    <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam.shader" />
+    <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Detail.shader" />
+    <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Detail_Soft.shader" />
+    <None Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders\Lightbeam_Soft.shader" />
+    <None Include="Assets\Resources\Atlas\FightPanel\FightAtlas.txt" />
+    <None Include="Assets\Resources\Atlas\FlyDragon\FlyDragon.txt" />
+    <None Include="Assets\Resources\Atlas\FrameBack\FrameBack.txt" />
+    <None Include="Assets\Resources\Atlas\Icon\Icon.txt" />
+    <None Include="Assets\Resources\Atlas\Login\Login.txt" />
+    <None Include="Assets\Resources\Atlas\SkillIcon\SkillIconAtlas.txt" />
+    <None Include="Assets\Resources\Atlas\UI\UI.txt" />
+    <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
+    <None Include="Assets\Resources\CloudsToy Shaders\CloudRealistic.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\BuildReport\README.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\BuildReport\VERSION.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingBlur.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingComposite.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingInclude.cginc" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingStencilOpaque.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingStencilOpaqueZ.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingStencilTransparent.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources\HighlightingStencilTransparentZ.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Atlases\Arimo20.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Atlases\Large.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\ReadMe - 1.6.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor\README.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\ReadMe - 2.6.3.txt" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Includes\Screen.cginc" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Includes\ShadowVolume.cginc" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaClamp.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaClear.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaDouble.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip0.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip1.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip2.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaFlip3.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaInterpolate.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaStrength.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBack.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBackAlways.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeBackNoBlendOp.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFront.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFrontAlways.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_AlphaVolumeFrontAlwaysNoBlendOp.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilClear.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilInterpolate.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBack.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBackAlways.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeBackFrontAlways.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFront.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFrontAlways.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders\SVT_StencilVolumeFrontBack.shader" />
+    <None Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Examples\Shared Assets\Shaders\Simple.shader" />
+    <None Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example\_Shaders\DiffuseColorMask.shader" />
+    <None Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example\_Shaders\Unlit Transparent Color.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\StreamingAssets\06_Money.xml" />
+    <None Include="Assets\StreamingAssets\07_Money.xml" />
+    <None Include="Assets\StreamingAssets\Achievement.xml" />
+    <None Include="Assets\StreamingAssets\ActivityInfo.xml" />
+    <None Include="Assets\StreamingAssets\AI.xml" />
+    <None Include="Assets\StreamingAssets\BossAI.xml" />
+    <None Include="Assets\StreamingAssets\BossTalk.xml" />
+    <None Include="Assets\StreamingAssets\BuffConfig.xml" />
+    <None Include="Assets\StreamingAssets\ChallengeTowerConfig.xml" />
+    <None Include="Assets\StreamingAssets\Character.xml" />
+    <None Include="Assets\StreamingAssets\CharacterLvUp.xml" />
+    <None Include="Assets\StreamingAssets\CutScene.xml" />
+    <None Include="Assets\StreamingAssets\CutSceneSet.xml" />
+    <None Include="Assets\StreamingAssets\Device.xml" />
+    <None Include="Assets\StreamingAssets\Device_Destructible.xml" />
+    <None Include="Assets\StreamingAssets\DropItem.xml" />
+    <None Include="Assets\StreamingAssets\EquipCombine.xml" />
+    <None Include="Assets\StreamingAssets\EquipStrengthen.xml" />
+    <None Include="Assets\StreamingAssets\FaithPower.xml" />
+    <None Include="Assets\StreamingAssets\GameConfig.xml" />
+    <None Include="Assets\StreamingAssets\GameExplanation.xml" />
+    <None Include="Assets\StreamingAssets\GoodConfig.xml" />
+    <None Include="Assets\StreamingAssets\GuideConfig.xml" />
+    <None Include="Assets\StreamingAssets\ItemBuff.xml" />
+    <None Include="Assets\StreamingAssets\LoadSet.xml" />
+    <None Include="Assets\StreamingAssets\LocalizationConfig.xml" />
+    <None Include="Assets\StreamingAssets\MapTaskConfig.xml" />
+    <None Include="Assets\StreamingAssets\MonsterIDNameInfo.xml" />
+    <None Include="Assets\StreamingAssets\MonsterPropertyData.xml" />
+    <None Include="Assets\StreamingAssets\MonsterSkill.xml" />
+    <None Include="Assets\StreamingAssets\MonsterTalkTrigger.xml" />
+    <None Include="Assets\StreamingAssets\MonsterType.xml" />
+    <None Include="Assets\StreamingAssets\NormalTaskInfo.xml" />
+    <None Include="Assets\StreamingAssets\NpcDialogue.xml" />
+    <None Include="Assets\StreamingAssets\PetSkills.xml" />
+    <None Include="Assets\StreamingAssets\Regiester.xml" />
+    <None Include="Assets\StreamingAssets\RitualInfo.xml" />
+    <None Include="Assets\StreamingAssets\Setting.xml" />
+    <None Include="Assets\StreamingAssets\Shop.xml" />
+    <None Include="Assets\StreamingAssets\Skill.xml" />
+    <None Include="Assets\StreamingAssets\SkillActive.xml" />
+    <None Include="Assets\StreamingAssets\SkillPassive.xml" />
+    <None Include="Assets\StreamingAssets\SpiritSettings.xml" />
+    <None Include="Assets\StreamingAssets\Story.xml" />
+    <None Include="Assets\StreamingAssets\StoryCamera.xml" />
+    <None Include="Assets\StreamingAssets\StoryContent.xml" />
+    <None Include="Assets\StreamingAssets\StoryEffect.xml" />
+    <None Include="Assets\StreamingAssets\StoryOperate.xml" />
+    <None Include="Assets\StreamingAssets\StoryRoleAction.xml" />
+    <None Include="Assets\StreamingAssets\StoryTask.xml" />
+    <None Include="Assets\StreamingAssets\TaskData.xml" />
+    <None Include="Assets\StreamingAssets\TaskInfo.xml" />
+    <None Include="Assets\StreamingAssets\TeamMap.xml" />
+    <None Include="Assets\StreamingAssets\Version.xml" />
+    <None Include="Assets\Volumetric Clouds\Instructions.txt" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Lite.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Shadows.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_HQ.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Lite.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_NoSpec.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Opaque.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Shadows.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlusInclude.cginc" />
+    <None Include="Assets\WaterPlus\Terrains\Terrain_3Textures.shader" />
+    <None Include="Assets\Map\Map_Level\I18N.CJK.dll" />
+    <None Include="Assets\Map\Map_Level\I18N.dll" />
+    <None Include="Assets\Map\Map_Level\I18N.West.dll" />
+    <None Include="Assets\Scripts\AI System\Scripts\Plugins\UnityTools.dll" />
+    <None Include="Assets\Scripts\RPG\RPGExploder\3rd\Poly2Tri.dll" />
+    <None Include="Assets\Volumetric Clouds\DLL\CloudsToy.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Assets\ArtResources" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Allsky" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Standard Assets" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Standard Assets\Scripts" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\BIG_Environment_Pack\Standard Assets\Scripts\Camera Scripts" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Blade_girl" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Blade_girl\scripts" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Hand Painted Texture Pack - Natural Surfaces 1.10" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Savanna\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\desaturate" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\desaturate\Image Based" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Scripts" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top Down\tools scripts\TriPlanarTerrain\Shaders" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\BackgroundAndCharacters" />
+    <Folder Include="Assets\ArtResources\ExtraUnityPackage\Top-Down Dungeons Mobile\_source\Shaders\Fx" />
+    <Folder Include="Assets\ArtResources\Shader" />
+    <Folder Include="Assets\ArtResources\Shader\CameraFade" />
+    <Folder Include="Assets\ArtResources\Shader\Custom" />
+    <Folder Include="Assets\ArtResources\Shader\Environment" />
+    <Folder Include="Assets\Editor" />
+    <Folder Include="Assets\Map" />
+    <Folder Include="Assets\Map\Map_Level" />
+    <Folder Include="Assets\Map\NewLevel" />
+    <Folder Include="Assets\Map\NewLevel\Cave" />
+    <Folder Include="Assets\Map\NewLevel\Cave\Lightbeam" />
+    <Folder Include="Assets\Map\NewLevel\Cave\Lightbeam\Documentation" />
+    <Folder Include="Assets\Map\NewLevel\Cave\Lightbeam\Shaders" />
+    <Folder Include="Assets\Resources" />
+    <Folder Include="Assets\Resources\Atlas" />
+    <Folder Include="Assets\Resources\Atlas\FightPanel" />
+    <Folder Include="Assets\Resources\Atlas\FlyDragon" />
+    <Folder Include="Assets\Resources\Atlas\FrameBack" />
+    <Folder Include="Assets\Resources\Atlas\Icon" />
+    <Folder Include="Assets\Resources\Atlas\Login" />
+    <Folder Include="Assets\Resources\Atlas\SkillIcon" />
+    <Folder Include="Assets\Resources\Atlas\UI" />
+    <Folder Include="Assets\Resources\CloudsToy Shaders" />
+    <Folder Include="Assets\Scripts" />
+    <Folder Include="Assets\Scripts\=UI=" />
+    <Folder Include="Assets\Scripts\=UI=\UI_Old" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\BuildReport" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch\Plugins" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\EasyTouch\Plugins\_Java-Event-Template" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HighlightingSystem\Resources" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Atlases" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\HUD Text\Examples\Models\Orc Armor" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\iTweenEditor" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\NGUI" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\NGUI\Resources\Shaders" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Includes" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Core\Library\Shaders" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Examples" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Examples\Shared Assets" />
+    <Folder Include="Assets\Scripts\3rd_Party_Plugin\Shadow Volumes Toolkit\Examples\Shared Assets\Shaders" />
+    <Folder Include="Assets\Scripts\AI System" />
+    <Folder Include="Assets\Scripts\AI System\Scripts" />
+    <Folder Include="Assets\Scripts\AI System\Scripts\Plugins" />
+    <Folder Include="Assets\Scripts\Effects" />
+    <Folder Include="Assets\Scripts\RPG" />
+    <Folder Include="Assets\Scripts\RPG\RPGExploder" />
+    <Folder Include="Assets\Scripts\RPG\RPGExploder\3rd" />
+    <Folder Include="Assets\Scripts\RPG\RpgTrail" />
+    <Folder Include="Assets\Scripts\RPG\RpgTrail\BetterTrail" />
+    <Folder Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example" />
+    <Folder Include="Assets\Scripts\RPG\RpgTrail\BetterTrail\Example\_Shaders" />
+    <Folder Include="Assets\Standard Assets" />
+    <Folder Include="Assets\Standard Assets (Mobile)" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Scripts" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Shaders" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders" />
+    <Folder Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders" />
+    <Folder Include="Assets\Standard Assets\Projectors" />
+    <Folder Include="Assets\Standard Assets\Projectors\Sources" />
+    <Folder Include="Assets\Standard Assets\Projectors\Sources\Shaders" />
+    <Folder Include="Assets\Standard Assets\Skyboxes" />
+    <Folder Include="Assets\Standard Assets\Water (Basic)" />
+    <Folder Include="Assets\Standard Assets\Water (Basic)\Sources" />
+    <Folder Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)\Sources" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)\Water4" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources" />
+    <Folder Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders" />
+    <Folder Include="Assets\StreamingAssets" />
+    <Folder Include="Assets\Volumetric Clouds" />
+    <Folder Include="Assets\Volumetric Clouds\DLL" />
+    <Folder Include="Assets\WaterPlus" />
+    <Folder Include="Assets\WaterPlus\Shaders" />
+    <Folder Include="Assets\WaterPlus\Terrains" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.UnityScript.targets" />
+</Project>
